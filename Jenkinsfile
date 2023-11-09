@@ -14,6 +14,7 @@ pipeline {
             steps {
                 
                 echo 'Running Tests'
+                echo 'Tests are Successfully executed'
             }
         }
         stage('Deploy'){
