@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
           
-                echo 'Building Docker Images',
+                echo 'Building Docker Images'
                 echo 'npm install ....'
                 echo 'building ddependencies'  
             }
